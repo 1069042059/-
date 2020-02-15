@@ -1,0 +1,231 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: #F7F6F2;
+}
+.head{
+    width: 100%;
+    height: 70px;
+    background-color: #3E3D43;
+}
+.w{
+    margin: 0 auto;
+    width: 1000px;
+}
+.head1{
+    width: 100%;
+}
+.head1>div{
+    height: 70px;
+    float: left;
+    line-height: 70px;
+}
+.head_left{
+    width: 235px;
+}
+.head_left>img{
+    display: block;
+    float: left;
+    width: 50px;height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 260px;
+}
+.head_left>h2{
+    color: #FFFFFF;
+}
+.head_mid{
+    width: 535px;
+    margin-left: 100px;
+}
+.head_mid>ul>li{
+    display: inline-block;
+    list-style: none;
+    height: 70px;
+    line-height: 70px;
+    width: 100px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.head_mid>ul>li:hover{
+    cursor: pointer;
+    background-color:black !important;
+}
+
+.head_right>ul>li{
+    display: inline-block;
+    list-style: none;
+    height: 70px;
+    line-height: 70px;
+    width: 150px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.head_right>ul>li:hover{
+    border-bottom: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+.container{
+    margin-top: 100px;
+}
+.cont_left{
+    float: left;
+    width: 180px;
+    margin-right: 40px;
+    height: 200px;
+
+}
+.cont_left>ul>li{
+    width: 100%;height: 40px;
+    line-height: 40px;
+    list-style: none;
+    padding-left: 20px;
+    margin: 10px 0;
+    font-size: 15px;
+}
+.on{
+    color: red;
+    font-weight: bold;
+    background-color:white;
+}
+.cont_right{
+    float: left;
+    width: 760px;
+    min-height: 1000px;
+}
+.right_search{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+   
+}
+.search{
+    display: inline-block;
+    float: left;
+    width: 320px;
+    height: 40px;
+    border: 1px solid #dddddd;
+    border-right: none;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.search_btn{
+    width: 70px;
+    height: 40px;
+    border: none;
+    background-color:#BF2C24;
+    color: #F7F6F2;
+}
+.search_btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.right_list{
+    width: 100%;
+  overflow: auto;
+    border: 1px solid #dddddd;
+    padding-left: 10px;
+    background-color: white;
+}
+.list_top{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #F0EFED;
+}
+.list_top>p:nth-child(3){
+    border: 1px solid #dddddd;
+    width: 122px;height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    color: #7F7F7F;
+   box-sizing: border-box;
+   padding-left: 10px;
+}
+.list_bar{
+     width: 100%;height: 40px;
+     border-bottom: 1px solid #F0EFED;
+}
+.all1{
+    width: 40px;height: 40px;
+    float: left;
+}
+.all1>span{
+     display:block;
+     float: left;
+     width: 20px;height: 20px;
+     border:1px solid #dddddd;
+     margin-top: 10px;
+     border-radius: 50%;
+     cursor: pointer;
+}
+.binggo{
+    width: 40px;height: 40px;
+    float: left;
+}
+.binggo>span{
+     display:block;
+     float: left;
+     width: 20px;height: 20px;
+     border:1px solid #dddddd;
+     margin-top: 10px;
+     border-radius: 50%;
+     cursor: pointer;
+}
+.current{
+    background-color: red;
+}
+.name{
+    margin-left: 20px;
+    float: left;
+    height: 40px;width: 50%;
+    line-height: 40px;
+    color: black;
+    font-weight: bold;
+}
+.list li{
+    border-bottom: 1px solid #F0EFED;
+    overflow: hidden;
+}
+.writer{
+    margin-right: 50px;
+    float: left;
+    color: #A87F94;
+    height: 40px;width: 210px;
+    line-height: 40px;
+}
+.close{
+    height: 40px;line-height: 40px;
+    color: #A87F94;
+    cursor: pointer;
+}
+.my_list>li{
+    list-style: none;
+}
+.all{
+    width: 70px;height: 40px;
+    float: left;
+    line-height: 40px;   
+}
+.all>span{
+     display:block;
+     float: left;
+     width: 20px;height: 20px;
+     border:1px solid #dddddd;
+     margin-top: 10px;
+     border-radius: 50%;
+     cursor: pointer;
+    margin-right: 10px;
+    color: #3E3D43;
+    
+}
+.list_cnt>p{
+    display: inline-block;
+    height: 40px;line-height: 40px;
+    color: #3E3D43;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 13px;
+}

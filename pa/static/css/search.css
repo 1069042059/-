@@ -1,0 +1,277 @@
+*{
+    margin: 0;padding: 0;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.head{
+    height: 40px;
+    background-color: #3E3D43;
+    overflow: hidden;
+}
+.head ul{
+    float: left;
+    margin-right: 400px;
+}
+.head ul>li{
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    color: #BCBCBD;
+    padding:0 10px;
+    text-align: center;
+}
+.head ul>li:hover{
+    cursor: pointer;
+    background-color: black;
+    border-top: 1px solid red;
+
+}
+.head p{
+    float: left;
+    color: #E9E8E9;
+    height: 40px;line-height: 40px;
+   
+}
+.head p:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.bg{
+    width: 100%;
+    height: 100px;
+   
+   overflow: hidden;
+   
+}
+.search{
+    width: 400px;height: 40px;
+    background-color: pink;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.search>input{
+    display: inline-block;
+    float: left;
+    height: 100%;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+}
+.search>input:nth-child(1){
+    width: 360px;
+}
+.search>button{
+    width: 40px;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: #BF2C24;
+}
+.search>button:hover{
+    background-color: red;
+}
+.left{
+    float: left;
+    width: 950px;
+    min-height: 1000px;
+
+    margin-right: 30px;
+}
+.right{
+    float: left;
+    min-height: 800px;width: 220px;
+
+}
+.sort{
+    width: 100%;
+    height: 370px;
+    background-color: #F7F6F2;
+    background: url('im/11.jpg') no-repeat;
+    background-size: contain;
+}
+.sort1{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    background-color: #F7F6F2;
+    background: url('im/12.jpg') no-repeat;
+    background-size: contain;
+}
+.list{
+    width: 100%;
+    overflow: hidden;
+}
+.list>ul{
+    border-top: 1px solid #F3F3F3;
+}
+.list>ul>li{
+    list-style: none;
+    width: 950px;
+    border-bottom: 1px solid #E6E6E6;
+    box-sizing: border-box;
+}
+.list>ul>li>div{
+    width: 100%;
+    height: 140px;
+    margin: 25px 0;
+}
+.intro>img{
+    height: 100%;
+    display: block;
+    float: left;
+}
+.intro_left{
+    float: left;
+    height: 100%;
+    width: 610px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    padding-right: 80px;
+}
+.intro_right{
+    height: 100%;
+    float: left;
+    width: 230px;
+    
+}
+.name{
+    font-size: 20px;
+}
+.writer{
+    color: #A6A6A6;
+}
+.brief{
+    color: #A6A6A6;
+    margin-top: 3px;
+}
+.state{
+    color: #3F5A93;
+}
+
+.sum_char , .sum_recommend{
+color: #262626;
+text-align: right;
+font-size: 12px;
+}
+.sum_recommend{
+    height: 80px;
+}
+.cnt_book_new,.cnt_add_book{
+    float: left;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #3F5A93;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.cnt_add_book:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.cnt_book_new{
+    background-color: #BF2C24;
+    color: white;
+    border: 1px solid red;
+}
+.cnt_book_new:hover{
+    background-color: red;
+}
+.right>h4{
+    color: #262626;
+    height: 35px;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    width: 100%;
+    border-bottom: 1px solid #B3B3B3;
+
+}
+.recommend_ul>li{
+    list-style: none;
+    width: 100%;
+    height: 130px;
+
+    border-bottom: 1px solid #F3F3F3;
+    overflow: hidden;
+}
+.intro1{
+    width: 100%;
+    height: 100px;
+
+    margin-top: 15px;
+}
+.intro1>img{
+    height: 100%;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.rec_name{
+    font-weight: 600;
+
+}
+.rec_writer{
+    color: #a6a6a6;
+    font-size: 13px;
+   height: 45px;
+   line-height: 45px;
+}
+.rec_brief{
+    color: #666;
+    font-size: 13px;
+}
+/* 登陆注册表格部分 */
+.land{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    background-color: white;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -200px;
+    display: none;
+    z-index: 999;
+}
+.land>ul{
+    text-align: center;
+    list-style: none;
+    margin-top: 40px;
+}
+.land>ul>li{
+    display: inline-block;
+    color: #A6A6A6;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-bottom: 2px solid #A6A6A6;
+}
+.land>.form{
+    margin-top: 30px;
+}
+.land input{
+    width: 80%;height: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.land .land_in{
+    background-color: #BF2C24;
+    color: whitesmoke;
+    border: none;
+   
+}
+.land input:nth-child(3):hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.land>span{
+   float: right;
+
+}
+.land>span>.icon:hover{
+    cursor: pointer;
+}

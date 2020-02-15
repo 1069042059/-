@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.w{
+    margin: 0 auto;
+    width: 1200px;
+}
+.head1{
+    height: 40px;
+    background-color: #3E3D43;
+    overflow: hidden;
+}
+.head1 ul{
+    float: left;
+    margin-right: 400px;
+}
+.head1 ul>li{
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    color: #BCBCBD;
+    padding:0 10px;
+    text-align: center;
+}
+.head1 ul>li:hover{
+    cursor: pointer;
+    background-color: black;
+    border-top: 1px solid red;
+
+}
+.head1 p{
+    float: left;
+    color: #E9E8E9;
+    height: 40px;line-height: 40px;
+   
+}
+.head1 p:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.bg{
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background: url('//qidian.qpic.cn/qidian_common/349573/78fce8716a866511419f688546de7f67/0');
+}
+.container{
+    width: 1000px;
+    height: 10000px;
+    background: RGB(255, 255, 255);
+    margin: -110px auto ;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.head{
+    margin:30px auto;
+    width: 950px;
+    height: 200px;
+}
+.head_left img{
+    float: left;
+    display:block;
+    width: 145px;
+    height: 200px;
+    margin-right: 20px;
+    
+}
+.head_mid{
+    float: left;
+    width: 680px;
+    height: 100%;
+
+}
+.head_right{
+    float: left;
+}
+.head_mid>div{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    
+}
+.new1 li{
+    display: inline-block;
+    list-style: none;
+   padding-right: 20px;
+   border: 1px solid #CFD6E4;
+   color: #3F5A93;
+   border-radius: 25px;
+   padding-left: 15px;
+   box-sizing: border-box;
+   
+}
+.new3 li{
+    display: inline-block;
+    color: #262626;
+    padding-right: 20px;
+}
+.new3 li>span{
+    font-size: 20px;
+    color: black;
+    padding-right: 3px;
+}
+.new4 li{
+    display: inline-block;
+    color: #3F5A93;
+    border: 1px solid #3F5A93;
+    box-sizing: border-box;
+    padding: 0 8px;
+}
+.new4 li:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.right_top{
+    height: 160px;
+    width: 100px;
+    
+}
+.right_bottom:hover{
+     cursor: pointer;
+     color:#3F5A93 ;
+}
+.bar{
+    width: 100%;
+    height: 50px;
+    margin: 50px 0;
+}
+.bar>div{
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    padding: 0 20px;
+}
+.information{
+    color: #ED4259;
+    font-weight: bold;
+    border-bottom: 2px solid #ED4259;
+}
+.list{
+    color: #ACACAC;
+}
+.intro{
+    width: 700px;
+    height: 300px;
+    padding-left: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ACACAC;
+}
+/* 登陆注册表格部分 */
+.land{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    background-color: white;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -200px;
+    display: none;
+    z-index: 999;
+}
+.land>ul{
+    text-align: center;
+    list-style: none;
+    margin-top: 40px;
+}
+.land>ul>li{
+    display: inline-block;
+    color: #A6A6A6;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-bottom: 2px solid #A6A6A6;
+}
+.land>.form{
+    margin-top: 30px;
+}
+.land input{
+    width: 80%;height: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.land .land_in{
+    background-color: #BF2C24;
+    color: whitesmoke;
+    border: none;
+   
+}
+.land input:nth-child(3):hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.land>span{
+   float: right;
+
+}
+.land>span>.icon:hover{
+    cursor: pointer;
+}
+
